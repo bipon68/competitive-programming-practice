@@ -32,7 +32,7 @@ int main(){
     }*/
     //cout << mp[-5] << "\n";
 
-    unordered_map<string, int>mp;
+    /*unordered_map<string, int>mp;
     mp["ZZ"] = 2; // lexicographical order
     mp["XYZ"] = 1;
     mp["Y"] = 100;
@@ -41,6 +41,17 @@ int main(){
     for(auto item : mp){
         cout << item.first << " " << item.second << "\n";
     }
+    */
+
+    map<int, int>mp;
+    int n;
+    cin >> n;
+    for(int i = 0; i < n; i++){
+        int key, value;
+        cin >> key >> value; // scanf("%d %d", &key, &value);
+        mp[key] = value;
+    }
+    for(auto item: mp) cout << item.first << " " << item.second << "\n";
 
     return 0;
 }
