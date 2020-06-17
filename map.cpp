@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+struct info{
+    string address;
+    int roll;
+    info(){}
+};
+
 int main(){
     /*
         1. negative index!
@@ -9,12 +15,17 @@ int main(){
     */
     // int, string, double
 
-    map<string, int>mp; // <key_type, value_type>
-    mp["Bipon"] = 55;
+    map<string, info>mp; // <key_type, value_type>
+    /*mp["Bipon"] = 55;
     mp["Arif"] = 100;
-    mp["Shazol"] = 110;
+    mp["Shazol"] = 110; */
 
-    cout << mp["Arif"] << "\n";
+    info info_arif;
+    info_arif.address = "BD";
+    info_arif.roll = 100;
+
+    mp["Arif"] = info_arif;
+    cout << mp["Arif"].address << " " << mp["Arif"].roll << "\n";
 
     /*if(mp.find(-5) != mp.end()){
         cout << "Khuje paisi " << "\n"; // stream flush with endl in c++
