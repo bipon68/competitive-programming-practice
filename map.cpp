@@ -32,10 +32,11 @@ int main(){
     }*/
     //cout << mp[-5] << "\n";
 
-    map<int, int>mp;
-    mp[3] = 2;
-    mp[5] = 1;
-    mp[30] = 100;
+    unordered_map<string, int>mp;
+    mp["ZZ"] = 2; // lexicographical order
+    mp["XYZ"] = 1;
+    mp["Y"] = 100;
+    mp["YZ"] = 100;
 
     for(auto item : mp){
         cout << item.first << " " << item.second << "\n";
