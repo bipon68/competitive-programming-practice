@@ -15,17 +15,14 @@ int main(){
     */
     // int, string, double
 
-    map<string, info>mp; // <key_type, value_type>
-    /*mp["Bipon"] = 55;
-    mp["Arif"] = 100;
-    mp["Shazol"] = 110; */
+    /*map<string, info>mp; // <key_type, value_type>
 
     info info_arif;
     info_arif.address = "BD";
     info_arif.roll = 100;
 
     mp["Arif"] = info_arif;
-    cout << mp["Arif"].address << " " << mp["Arif"].roll << "\n";
+    cout << mp["Arif"].address << " " << mp["Arif"].roll << "\n"; */
 
     /*if(mp.find(-5) != mp.end()){
         cout << "Khuje paisi " << "\n"; // stream flush with endl in c++
@@ -34,6 +31,15 @@ int main(){
         cout << "Khuje pai nai! " << "\n"; // stream flush with endl in c++
     }*/
     //cout << mp[-5] << "\n";
+
+    map<int, int>mp;
+    mp[3] = 2;
+    mp[5] = 1;
+    mp[30] = 100;
+
+    for(auto item : mp){
+        cout << item.first << " " << item.second << "\n";
+    }
 
     return 0;
 }
