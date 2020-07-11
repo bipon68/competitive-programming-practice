@@ -1,0 +1,98 @@
+WHAT YOU WILL LEARN
+You will be able to write efficient, bug-free codes in C++ for contests and your projects.
+
+01
+Basic Computer Fundamentals
+i) Components of computer
+ii) How CPU, memory/RAM works in terms of variable/array creation and access
+iii) Number System, thinking in terms of number system, example of using it in problem solving
+
+02
+OJ's and Code sharing sites
+i) IDE vs Compiler.
+ii) Introduction to various OJ i.e. CF,UVA,Codechef,vjudge etc.
+iii) Introduction to code sharing sites.
+
+03
+First Program in C++
+i) Coding conventions and headers
+ii) C++ I/O
+iii) C++ : Comments and Macro
+
+04
+Operators
+i) Logical and Conditional operators
+ii) Bitwise operators and their tricky applications
+
+05
+Loops
+i) Types of Loops in C++
+ii) Using conventions with examples
+
+06
+Arrays and Strings
+i) Introduction, I/O conventions
+ii) Opetations: Length, Compare, Concate, Copy, Reverse
+iii) Subarray, Substring, Subsequence
+iv) Palindrome, Anagram
+
+07
+Function
+i) Definition, common mistakes
+ii) Using convention with examples
+
+08
+Complexity Analysis
+i) Time/Memory Complexity, examples
+ii) Recaping previous topics in terms of complexity
+
+09
+Binary search
+i) Insight of binary search and binary property
+ii) Binary search on arrays
+iii) Binary search on math problems
+iv) Bisection in geometry problems
+v) Complexity Analysis
+
+10
+Sorting
+i) insight with bubble sort
+ii) Insertion and selection sort
+iii) Counting sort
+iv) Using in problem solving
+v) STL Sort
+
+11
+Structures and Classes
+i) Using structure
+ii) Operator Overloading
+iii) Sorting
+v) Basic OOP
+
+12
+Recursion
+i) Insight, recursive equation
+ii) Binary search with recursion
+
+13
+Number Theory
+i) GCD, LCM, Divisibility
+ii) Primality check and generation
+iii) Sieve of eratosthenes
+iv) Big Mod: a^b % m
+
+14
+Combinatorics
+i) Using combinatorics from HSC
+
+
+15
+Greedy
+i) Insight of greedy thinking
+ii) Problem solving
+
+
+16
+A glimpse of the next course
+i) Data Structures: Vector, Stack, Queue
+ii) Algorithms: sorting
